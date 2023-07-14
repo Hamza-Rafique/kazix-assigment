@@ -17,6 +17,9 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ## Technologies Used
 Next.js: Next.js is a React framework that provides server-side rendering, automatic code splitting, and optimized performance.
+#
 Tailwind CSS: Tailwind CSS is a utility-first CSS framework that enables rapid UI development with pre-defined utility classes.
+#
 TypeScript: TypeScript is a statically-typed superset of JavaScript that enhances code quality, maintainability, and collaboration.
+#
 ESLint: ESLint is a linter tool that enforces coding standards, detects errors, and improves code quality.
