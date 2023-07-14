@@ -14,7 +14,7 @@ const TopScoreGames: React.FC = ({}) => {
         title="Top Soccer Games"
         onViewAllClick={onViewAllClick}
       />
-      <div className="flex">
+      <div className="flex flex-wrap">
         <SportCard
           teamOne="Argentina"
           teamTwo="Liga Professional"
@@ -36,6 +36,146 @@ const TopScoreGames: React.FC = ({}) => {
           clubName="Barracas Central"
           location="CA Central Cordoba SE"
         />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+      </div>
+      <TopGamesHeader
+        title="Top Soccer Games"
+        onViewAllClick={onViewAllClick}
+      />
+      <div className="flex flex-wrap">
+       
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+      </div>
+      <TopGamesHeader
+        title="Top Soccer Games"
+        onViewAllClick={onViewAllClick}
+      />
+      <div className="flex flex-wrap">
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        <SportCard
+          teamOne="Argentina"
+          teamTwo="Liga Professional"
+          time="Today, 21:30"
+          clubName="Barracas Central"
+          location="CA Central Cordoba SE"
+        />
+        
       </div>
     </section>
   );

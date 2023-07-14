@@ -15,7 +15,8 @@ module.exports = {
       secondary_dark_800:"#050E1E",
       secondary_dark_950: "#030811",
       secondary_light_950: "#7E8DA9",
-      white:'#fff'
+      white:'#fff',
+      secondary:'rgba(23, 28, 37, 0.50)'
     },
     extend: {
       backgroundImage: {

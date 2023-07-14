@@ -19,8 +19,9 @@ const LeagueCard: React.FC<LeagueCardProps> = ({
       style={{
         backgroundImage: `url(/assets/images/football-stadium-night-generative-ai.png)`,
       }}
-      className="bg-no-repeat bg-opacity-50 backdrop-blur-lg w-1/2 backdrop-filter mr-4"
+      className="bg-no-repeat bg-opacity-50 w-1/2 mr-4"
     >
+      <div className="bg-secondary backdrop-blur-sm">
       <div className="flex items-center m-4">
         <Image
           src="/assets/icons/sport-icons.svg"
@@ -42,11 +43,11 @@ const LeagueCard: React.FC<LeagueCardProps> = ({
           {team} - {teamTwo}
         </h3>
       </div>
-      <div className="p-3 flex justify-center">
-        <div className="py-4 px-5 bg-secondary_dark_950 text-white font-bold text-xl rounded-lg mr-3 opacity-75">
+      <div className="p-1 flex justify-center">
+        <div className="py-3 px-5 bg-secondary_dark_950 text-white font-bold text-xl rounded-lg mr-3 opacity-75">
           {teamScore}
         </div>
-        <div className="py-4 px-5 bg-secondary_dark_950 text-white font-bold text-xl rounded-lg opacity-75">
+        <div className="py-3 px-5 bg-secondary_dark_950 text-white font-bold text-xl rounded-lg opacity-75">
           {teamTwoScore}
         </div>
       </div>
@@ -63,6 +64,7 @@ const LeagueCard: React.FC<LeagueCardProps> = ({
           <div>2</div>
           <div>5.13</div>
         </div>
+      </div>
       </div>
     </div>
   );
