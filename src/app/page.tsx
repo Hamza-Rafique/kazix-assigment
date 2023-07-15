@@ -1,5 +1,5 @@
-import HeroSection from '@/components/hero/hero'
-import TopScoreGames from '@/components/top_score/top_score_games'
+import HeroSection from "@/components/LeagueBanner/LeagueBanner";
+import TopScoreGames from "@/components/TopScore/TopScoreGames";
 
 export default function Home() {
   return (
@@ -7,6 +7,5 @@ export default function Home() {
       <HeroSection />
       <TopScoreGames />
     </main>
-
-  )
+  );
 }
